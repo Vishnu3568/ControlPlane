@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Database & local data
+data/database/*.db
+data/database/*.db-journal
+data/database/*.db-wal
+data/database/*.db-shm
+data/backups/*
+!data/backups/.gitkeep
+!data/database/.gitkeep
+!data/notes/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
